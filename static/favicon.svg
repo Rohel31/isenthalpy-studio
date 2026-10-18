@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente de fondo sutil para favicon -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#141B28"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Retícula de referencia CAD (sutil) -->
+  <line x1="2" y1="24" x2="46" y2="24" stroke="#1E293B" stroke-width="0.75" stroke-dasharray="1 3"/>
+  <line x1="24" y1="2" x2="24" y2="46" stroke="#1E293B" stroke-width="0.75" stroke-dasharray="1 3"/>
+
+  <!-- 1. Hexágono métrico de instrumentación exterior -->
+  <polygon points="42.2,13.5 42.2,34.5 24,45 5.8,34.5 5.8,13.5 24,3" 
+           fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 2. Triángulo Delta equilátero (Primera Ley / Invariancia Isentálpica) -->
+  <polygon points="24,7 39.6,33.9 8.4,33.9" 
+           fill="#0F1522" stroke="#F1F5F9" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- 3. Válvula Laval pasante transversal (curvas de expansión continua) -->
+  <path d="M 5,17.5 Q 24,22 43,17.5" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M 5,30.5 Q 24,26 43,30.5" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- 4. Eje axial de flujo horizontal con vector terminal -->
+  <line x1="3" y1="24" x2="45" y2="24" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 41,21.5 L 45,24 L 41,26.5" fill="none" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 5. Garganta crítica nodal A* (orificio de estrangulamiento Joule-Thomson) -->
+  <line x1="24" y1="19.5" x2="24" y2="28.5" stroke="#475569" stroke-width="1"/>
+  <circle cx="24" cy="24" r="2.2" fill="#0B0E14" stroke="#F1F5F9" stroke-width="1.2"/>
+</svg>
